@@ -9,7 +9,7 @@ const Main =()=>{
     return(
         <div>
                 <header className="App-header">
-                  <Intro message="i am gonna fuck the world"/>
+                  <Intro message="Series Hub"/>
                 </header>
                 <Switch>
                     <Route exact path="/" component={Series}/>

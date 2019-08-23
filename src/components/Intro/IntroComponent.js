@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Intro = (props)=>{
-    return <p>{props.message}</p>
+const Intro = ({message})=>{
+    return <p>{message}</p>
 }
 
 export default Intro;
